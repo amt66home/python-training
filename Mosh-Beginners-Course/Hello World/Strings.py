@@ -14,6 +14,7 @@ print(course)
 course_2 = 'Python for "Beginners"'
 print(course_2)
 
+# If you enclose our strings in three sets of quotes it will let you use line returns:
 course_3 = ''' 
 Hi John,
 
