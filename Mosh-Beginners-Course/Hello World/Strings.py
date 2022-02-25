@@ -25,6 +25,8 @@ The support team
 '''
 print(course_3)
 
+# Referencing the string index lets you return specific no of characters, so this
+# example will return the character at index 0 ie P
 course_2 = 'Python for Beginners'
 print(course_2[0])
 
