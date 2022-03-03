@@ -56,3 +56,12 @@ if len(name) < 3 or len(name) > 50:
     print("Name must be a minimum of 3 characters and maximum of 50 characters")
 else:
     print("Name looks good")
+
+# While loops
+i = 1
+while i <= 5:
+    print('*' * i)
+    i = i + 1
+print("Done")
+
+
