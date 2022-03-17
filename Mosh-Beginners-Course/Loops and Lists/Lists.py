@@ -24,3 +24,8 @@ for number in numbers:
 print(max)
 # or
 print(max(numbers))
+
+# You can use unpacking with lists:
+numbers = [1,5,3]
+a, b, c = numbers
+print(b + a)
