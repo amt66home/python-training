@@ -57,6 +57,18 @@ if len(name) < 3 or len(name) > 50:
 else:
     print("Name looks good")
 
+Weight = int(input('Weight: '))
+Unit = input('(L)bs or (K)g: ')
+
+if Unit.upper() == "L":
+    converted = Weight * 0.453593
+    print (f"You are {converted} kilos")
+else:
+    converted = Weight / 2.20462
+    print (f"You are {converted} pounds")
+ 
+
+
 # While loops
 i = 1
 while i <= 5:
