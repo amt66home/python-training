@@ -55,6 +55,28 @@ for number in mylist:
         uniques.append(number)
 print(uniques)
 
+# return items in a list
+names = ['john', 'mary', 'janet','cara','robert']
+print(names[2:4])
+
+# change the value of an item in a list
+names = ['john', 'mary', 'janet','cara','robert']
+names[0] = 'Jon'
+print(names)
+
+# find the largest number in a list
+mylist = [1,3,5,7,9,7,5]
+mylist.sort()
+print('The largest number is ', mylist[-1])
+
+# or
+
+max = mylist[0]
+for number in mylist:
+    if number > max:
+        max = number
+print(max)
+
 
 
 

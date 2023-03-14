@@ -23,3 +23,6 @@ for x_count in numbers:
 # or you could do it this way
 for x_count in numbers:
     print('x' * x_count)
+
+
+    

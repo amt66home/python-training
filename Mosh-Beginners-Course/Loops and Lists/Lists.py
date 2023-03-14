@@ -29,3 +29,48 @@ print(max(numbers))
 numbers = [1,5,3]
 a, b, c = numbers
 print(b + a)
+
+# Add a number to a list
+numbers = [5, 2, 1, 7, 4]
+numbers.append(20)
+print(numbers)
+
+# Add a number to a position 3 (index 2) in a list
+numbers = [5, 2, 1, 7, 4]
+numbers.insert(2, 10)
+print(numbers)
+
+# Remove an item from a list - remov the number 5
+numbers = [5, 2, 1, 7, 4]
+numbers.remove(5)
+print(numbers)
+
+# Remove all items from a list
+numbers = [5, 2, 1, 7, 4]
+numbers.clear()
+print(numbers)
+
+# Remove last item in the list
+numbers = [5, 2, 1, 7, 4]
+numbers.pop()
+print(numbers)
+
+# find the index of the first number 5 in the list
+numbers = [5, 2, 1, 7, 5]
+print(numbers.index(5))
+
+# check for existence of number in a list, returns true or false
+numbers = [5, 2, 1, 7, 5]
+print(50 in numbers)
+
+# count the incidences of a number in a list
+numbers = [5, 2, 1, 7, 5]
+print(numbers.count(5))
+
+# sort list then print it
+numbers = [5, 2, 1, 7, 5]
+numbers.sort()
+print(numbers)
+
+
+
