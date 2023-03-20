@@ -57,7 +57,7 @@ digits_mapping = {
     "7": "seven",
     "8": "eight",
     "9": "nine",
-    "0": "zero",
+    "0": "zero"
 }
 output = ""
 for ch in phone:

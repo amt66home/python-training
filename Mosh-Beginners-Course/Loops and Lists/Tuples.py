@@ -9,7 +9,7 @@ print(numbers[0])
 # Unpacking:
 # lets say we want to assign values to x,y and z
 coordinates = (1,2,3)
-coordinates[0] * coordinates[1] * coordinates[3]
+coordinates[0] * coordinates[1] * coordinates[2]
 
 # You can store them in different variables
 coordinates = (1,2,3)
@@ -19,7 +19,8 @@ z = coordinates[2]
 
 print(x * y * z)
 
-# you can also use unpacking for this
+# you can also use unpacking for assigning values from a tuple
 coordinates = (1,2,3)
 x, y, z = coordinates
 print(y)
+

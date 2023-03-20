@@ -69,7 +69,13 @@ print(numbers.count(5))
 
 # sort list then print it
 numbers = [5, 2, 1, 7, 5]
+numbers2 = numbers.copy()
+numbers.append(10)
+
 numbers.sort()
+print(numbers)
+
+numbers.reverse()
 print(numbers)
 
 
