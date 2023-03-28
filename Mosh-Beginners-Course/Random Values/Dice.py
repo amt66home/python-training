@@ -8,5 +8,6 @@ class Dice:
         # to return a tuple you can leave out the brackets and Python will automatically interpret it as a tuple
         return first, second
 
+
 dice = Dice()
 print(dice.roll())
