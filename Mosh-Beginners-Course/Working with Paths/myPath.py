@@ -15,5 +15,5 @@ print(path.rmdir())
 
 # find all files in the current directory
 path2 = Path()
-for file in path.glob('*.py'):
+for file in path2.glob('*'):
     print(file)
